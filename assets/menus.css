@@ -25,6 +25,8 @@ nav ul li a { display: inline-block; color: #fff; padding: 10px 20px; text-decor
 nav ul li a:hover { background-color: #339999; }
 
 nav ul ul { display: none; position: absolute; top: 100%; background-color: rgba(0,102,102,.8); }
+nav ul ul li { position: relative; }
+nav ul ul ul { left: 100%; top: 0; }
 
 @media screen and (max-width: 750px) {
 	
